@@ -195,8 +195,7 @@ Prepare for the professional world with the right skills and confidence.
 ---
 
 ## Contributing
-We welcome contributions from the community! Whether it's fixing a typo, adding new sections, or suggesting improvements, your input is valuable. Please read our [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
+We welcome contributions from the community! Whether it's fixing a typo, adding new sections, or suggesting improvements, your input is valuable. 
 ---
 
 Happy Coding! 🚀
