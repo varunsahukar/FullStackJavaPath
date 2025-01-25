@@ -1,0 +1,122 @@
+# Java Basics Roadmap
+
+Welcome to the **Java Basics Roadmap** repository! This repository is designed to guide you through the essential concepts and practices needed to get started with Java programming. Whether you're a complete beginner or looking to brush up on your Java skills, this roadmap will help you build a strong foundation.
+
+## Table of Contents
+- [Introduction](#introduction)
+- [Setting Up Your Environment](#setting-up-your-environment)
+- [Java Syntax Basics](#java-syntax-basics)
+- [Variables and Data Types](#variables-and-data-types)
+- [Control Flow Statements](#control-flow-statements)
+- [Object-Oriented Programming](#object-oriented-programming)
+- [Exception Handling](#exception-handling)
+- [Useful Resources](#useful-resources)
+
+## Introduction
+Java is a versatile and powerful programming language used across various domains, from web and mobile applications to enterprise systems. Its platform-independent nature makes it a popular choice among developers.
+
+## Setting Up Your Environment
+Before diving into Java, you'll need to set up your development environment. Follow these steps to get started:
+
+1. **Install JDK**: Download and install the Java Development Kit (JDK) from the [official Oracle website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+2. **Set Up IDE**: Choose an Integrated Development Environment (IDE) like [IntelliJ IDEA](https://www.jetbrains.com/idea/), [Eclipse](https://www.eclipse.org/), or [NetBeans](https://netbeans.apache.org/).
+3. **Verify Installation**: Open your terminal/command prompt and run `java -version` and `javac -version` to ensure Java is installed correctly.
+
+## Java Syntax Basics
+Understanding the basic syntax of Java is crucial for writing your first programs. Here's a simple "Hello, World!" example:
+
+```java
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+```
+
+## Variables and Data Types
+Java supports various data types and variables that store data values. Here's a quick overview:
+
+- **Primitive Data Types**: byte, short, int, long, float, double, boolean, char
+- **Non-Primitive Data Types**: String, Arrays, Classes, Interfaces
+
+Example:
+```java
+int age = 25;
+double price = 19.99;
+char grade = 'A';
+boolean isJavaFun = true;
+```
+
+## Control Flow Statements
+Control flow statements determine the order in which statements are executed. Common examples include:
+
+- **Conditional Statements**: if, if-else, switch
+- **Loops**: for, while, do-while
+
+Example:
+```java
+if (age > 18) {
+    System.out.println("Adult");
+} else {
+    System.out.println("Not an Adult");
+}
+
+for (int i = 0; i < 5; i++) {
+    System.out.println(i);
+}
+```
+
+## Object-Oriented Programming
+Java is an object-oriented programming (OOP) language. Key OOP concepts include:
+
+- **Classes and Objects**
+- **Inheritance**
+- **Polymorphism**
+- **Encapsulation**
+- **Abstraction**
+
+Example:
+```java
+public class Dog {
+    String breed;
+    int age;
+
+    public void bark() {
+        System.out.println("Woof!");
+    }
+}
+```
+
+## Exception Handling
+Exception handling in Java allows you to manage runtime errors and maintain the normal flow of the program using try, catch, and finally blocks.
+
+Example:
+```java
+try {
+    int division = 10 / 0;
+} catch (ArithmeticException e) {
+    System.out.println("Cannot divide by zero!");
+} finally {
+    System.out.println("This block always executes");
+}
+```
+
+## Useful Resources
+Enhance your learning with these valuable resources:
+
+- [Oracle Java Documentation](https://docs.oracle.com/javase/tutorial/)
+- [Java Programming and Software Engineering Fundamentals by Duke University (Coursera)](https://www.coursera.org/specializations/java-programming)
+- [Head First Java by Kathy Sierra and Bert Bates](https://www.oreilly.com/library/view/head-first-java/0596009208/)
+- [Java Code Geeks](https://www.javacodegeeks.com/)
+
+## Contributing
+We welcome contributions to improve this roadmap! Feel free to fork the repository, make enhancements, and submit pull requests.
+
+## License
+This project is licensed under the MIT License.
+
+---
+
+Happy coding! 🚀
+
+---
